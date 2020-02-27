@@ -87,6 +87,7 @@ public class FirstServlet extends HttpServlet {
         realPath = FirstServlet.class.getClassLoader()
                 .getResource("com/mycomp/servlet/d.txt").getPath();
         System.out.println(realPath);
+        
     }
 
 }
